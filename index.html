@@ -43,26 +43,65 @@
                     </ul>
     
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
                                 <i class="fas fa-bell header__navbar-icon"></i>
                                 Thông báo
                             </a>
                             <div class="header__notify">
                                 <header class="header__notify-header">
-                                    <h3>Thong bao moi nhan</h3>
+                                    <h3>Thông Báo Mới Nhận</h3>
                                 </header>
                                 <ul class="header__notify-list">
                                     <li class="header__notify-item">
                                         <a href="" class="header__notify-link">
-                                            <img src="./assets/img/QRCode.png" alt="" class="header__notify-img">
+                                            <img class="header__notify-img" src="https://cf.shopee.vn/file/3af8a8072e21f02c9f13605eeacc42d7_xhdpi" alt="">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">My pham Ohui chinh hang</span>
-                                                <span class="header__notify-description">Mo ta Ohui chinh hang</span>
+                                                <span class="header__notify-name">Xác nhận hàng chính hãng Ohui như thế nào?</span>
+                                                <span class="header__notify-description">"Da mình nhạy cảm thì có dùng được Ohui không?"</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img class="header__notify-img" src="https://cf.shopee.vn/file/https%3A%2F%2Fcf.shopee.vn%2Ffile%2F6469e30ffbf6ecf04efc183a7d8d0cd7_xhdpi" alt="">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sale Sốc bộ dưỡng da Ohui The First Tái tạo trẻ hóa da SALE OFF 70%</span>
+                                                <span class="header__notify-description">"Da mình nhạy cảm thì có dùng được Ohui không?"</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img class="header__notify-img" src="https://cf.shopee.vn/file/90b38589a9c10c286313ef54d6c6de02_xhdpi" alt="">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ Phẩm Ohui Chính Hãng</span>
+                                                <span class="header__notify-description">"Một lần làm môi căng mềm, quyến rũ với sắc màu nổi bật luôn là điều mà các quý cô ao ước."</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img class="header__notify-img" src="https://cf.shopee.vn/file/8f272e8c94d246a8823e321afc5aff55" alt="">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ Phẩm Ohui Chính Hãng</span>
+                                                <span class="header__notify-description">"Da mình nhạy cảm thì có dùng được Ohui không?"</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img class="header__notify-img" src="https://cf.shopee.vn/file/9ec433bca2d7e0f8f6fc2ce1c5097882_tn" alt="">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ Phẩm Ohui Chính Hãng</span>
+                                                <span class="header__notify-description">"Da mình nhạy cảm thì có dùng được Ohui không?"</span>
                                             </div>
                                         </a>
                                     </li>
                                 </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
                             </div>
                         </li>
                         <li class="header__navbar-item">
@@ -87,6 +126,55 @@
         <footer class="footer">
 
         </footer>
+        <!-- Modal layout -->
+        <div class="modal">
+            <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <div class="modal__inner">
+                    <!-- Form Login/register -->
+                    <div class="auth-form">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng kí</h3>
+                            <span class="auth-form__switch-btn">Đăng Nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form_policy-text">Bằng việc đăng kí, bạn đã đồng ý với Shoppe về</p>
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> & 
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </div>
+                        <div class="auth-form__constrols">
+                            <button class="btn">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÍ</button>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--with-icon">
+                                <i class="fab fa-facebook"></i>
+                                Kết nối với Facebook
+                            </a>
+                            <a href="" class="btn btn--with-icon">
+                                <i class="fab fa-google"></i>
+                                Kết nối với Google
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
