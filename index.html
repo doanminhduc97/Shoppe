@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css/family=Roboto:300,400,500,700&display=swap&subset=vietnamese">
 </head>
@@ -130,9 +131,9 @@
         <div class="modal">
             <div class="modal__overlay"></div>
             <div class="modal__body">
-                <div class="modal__inner">
-                    <!-- Form Login/register -->
-                    <div class="auth-form">
+                <!-- Form Login/register -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
                         <div class="auth-form__header">
                             <h3 class="auth-form__heading">Đăng kí</h3>
                             <span class="auth-form__switch-btn">Đăng Nhập</span>
@@ -153,24 +154,25 @@
                             </div>
                         </div>
                         <div class="auth-form__aside">
-                            <p class="auth-form_policy-text">Bằng việc đăng kí, bạn đã đồng ý với Shoppe về</p>
-                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> & 
-                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            <p class="auth-form_policy-text">Bằng việc đăng kí, bạn đã đồng ý với Shoppe về
+                                <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> & 
+                                <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            </p>
                         </div>
                         <div class="auth-form__constrols">
-                            <button class="btn">TRỞ LẠI</button>
+                            <button class="btn auth-form__constrols-back">TRỞ LẠI</button>
                             <button class="btn btn--primary">ĐĂNG KÍ</button>
                         </div>
-                        <div class="auth-form__socials">
-                            <a href="" class="btn btn--with-icon">
-                                <i class="fab fa-facebook"></i>
-                                Kết nối với Facebook
-                            </a>
-                            <a href="" class="btn btn--with-icon">
-                                <i class="fab fa-google"></i>
-                                Kết nối với Google
-                            </a>
-                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fab fa-facebook"></i>
+                            Kết nối với Facebook
+                        </a>
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fab fa-google"></i>
+                            Kết nối với Google
+                        </a>
                     </div>
                 </div>
             </div>
